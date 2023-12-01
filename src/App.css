@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  top: 0;
+}
+body {
+  background-color: #e7e8ef;
+  color: #111218;
+}
+.hdr {
+  background-color: #545e82;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: inherit;
+}
+.stats {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+  margin-left: 15%;
+}
+.stats div {
+  color: #fcf8f9;
+  padding: 35px;
+  padding-top: 10px;
+  width: 20%;
+  height: 70px;
+  text-align: center;
+  box-shadow: #111218 10px 10px 10px;
+}
+.bdg {
+  background-color: #2ecc71;
+}
+
+.bdg1 {
+  font-size: 60px;
+}
+.dpns {
+  background-color: #dc3545;
+}
+.dpns1 {
+  font-size: 60px;
+}
+.ecrt {
+  background-color: #6c757d;
+}
+.ecrt1 {
+  font-size: 60px;
+}
+.list {
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+.list table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.list table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.list table td:hover {
+  background-color: #ddd;
+}
+
+.list table td,
+.list table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+.list table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.ajout {
+  margin-top: 50px;
+  display: grid;
+  width: 40%;
+  height: 35%;
+  padding: 10px;
+  margin-left: 10%;
+  grid-template-columns: 300px;
+  gap: 10px;
+  background-color: #89b1a3;
+  border-radius: 10px;
+  box-shadow: #111218 5px 5px 5px;
+}
+.ajout input {
+  border-radius: 5px;
+  width: 250px;
+  height: 25px;
+  margin-left: 10%;
+}
+.ajout input:hover {
+  border-color: darkcyan;
+}
+.ajout button {
+  height: 30px;
+  width: 150px;
+  background-color: #2d8e6b;
+  color: #f2f2f2;
+  margin-left: 30%;
+  border-radius: 5px;
+}
+.ajout button:hover {
+  border-color: darkcyan;
+}
+.la {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+}
+.allajout {
+  width: 50%;
+}
+.alllist {
+  width: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .stats div {
+    height: 40%;
+    margin-left: 5%;
+    padding-left: 25px;
+  }
+  .stats div h2 {
+    font-size: 18px;
+  }
+  .stats {
+    margin-left: 0%;
+  }
+  .la {
+    display: block;
+  }
+  .alllist {
+    width: 80%;
+    margin-left: 18%;
+  }
+  .allajout {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .ajout {
+    width: 80%;
+  }
+}
